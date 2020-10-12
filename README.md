@@ -5,4 +5,4 @@ Kafka Connect SMT to replace the record timestamp with a new timestamp from a fi
     "transforms"='createTS',
     "transforms.createTS.type"='kafka.connect.smt.ValueToTimestamp',
     "transforms.createTS.field"='eventtime'
-``
+```
